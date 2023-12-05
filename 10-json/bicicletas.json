@@ -1,0 +1,50 @@
+[
+    {
+        "Marca": "Fierce",
+        "Modelo": "FM18SI29AM211",
+        "Rodado": 29,
+        "Año de fabricación": 2020,
+        "Color": "Negro",
+        "Peso en Kilogramos": 15,
+        "Tipo": "Montañera",
+        "Precio": 500,
+        "Vendida": "si"
+    },
+    
+    {
+        "Marca": "Shifter",
+        "Modelo": "Regal",
+        "Rodado": 26,
+        "Año de fabricación": 2021,
+        "Color": "Azul",
+        "Peso en Kilogramos": 16,
+        "Tipo": "Paseo",
+        "Precio": 400,
+        "Vendida": "no"
+    },
+
+    {
+        "Marca": "Olmo",
+        "Modelo": "Sunshine",
+        "Rodado": 29,
+        "Año de fabricación": 2019,
+        "Color": "Negro",
+        "Peso en Kilogramos": 16,
+        "Tipo": "Montañera",
+        "Precio": 800,
+        "Vendida": "no"
+    },
+    
+    {
+        "Marca": "Halley,",
+        "Modelo": "Techno",
+        "Rodado": 16,
+        "Año de fabricación": 2020,
+        "Color": "Azul",
+        "Peso en Kilogramos": 16,
+        "Tipo": "Paseo",
+        "Precio": 700,
+        "Vendida": "si"
+    }
+    
+]
