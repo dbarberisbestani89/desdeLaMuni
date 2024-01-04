@@ -7,69 +7,22 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        /* Navbar estilos */
-        .navbar {
-            background-color: #03264C;
-            color: #ebebeb;
-            padding: 10px;
-        }
-
-        .navbar a {
-            color: #ebebeb;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        /* Login bar estilos */
-        .login-bar {
-            background-color: #1259c3;
-            color: #ebebeb;
-            padding: 10px;
-        }
-
-        .login-bar a {
-            color: #ebebeb;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        /* Search bar estilos */
-        .search-bar {
-            background-color: #ebebeb;
-            color: #666;
-            padding: 10px;
-        }
-
-        .search-bar input[type="text"] {
-            padding: 5px;
-            font-size: 12px;
-        }
-
-        .search-bar button {
-            background-color: #39b54a;
-            color: #ebebeb;
-            padding: 5px 10px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f77b6cd208.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
         <img src = "/images/logo-mercado-liebre.svg" alt = "Logo de la empresa">
         <form action="/ruta/del/servidor" method="get">
+            
             <input type="text" id="search" name="q" placeholder="Buscar productos">
-            <input type="submit" value="Buscar">
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
         </form>
         
-    <h3>Comprá en cuotas y sin tarjeta de crédito</h3>
+    <h3><i class="fas fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h3>
     
     <nav>
         <ul>
@@ -77,8 +30,7 @@
           <li><a href="#">Tiendas Oficiales</a></li>
           <li><a href="#">Vender</a></li>
           <li><a href="#">Ayuda</a></li>
-          <br>
-          <li><a href="#">Creá tu cuenta</a></li>
+          <li><a href="#">Creá tu cuenta</a><i class="fa-regular fa-address-card"></i></li>
           <li><a href="#">Ingresá</a></li>
           <li><a href="#">Mis compras</a></li>
         </ul>
@@ -95,25 +47,25 @@
         <article>
             <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
             <h3>Cafetera Moulinex</h3>
-            <p>$6.770</p><p>40% OFF</p>
+            <p class="precios">$6.770</p><p class="descuentos">40% OFF</p>
         </article>
 
         <article>
             <img src="/images/img-macbook-pro-2019.jpg" alt="imagen de MacBook">
             <h3>MacBook Pro 2019</h3>
-            <p>$230.000</p><p>20% OFF</p>
+            <p class="precios">$230.000</p><p class="descuentos">20% OFF</p>
         </article>
 
         <article>
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="imagen del Samsung Galaxy">
             <h3>Samsung Galaxy S10</h3>
-            <p>$70.500</p><p>10% OFF</p>
+            <p class="precios">$70.500</p><p class="descuentos">10% OFF</p>
         </article>
 
         <article>
             <img src="/images/img-tv-samsung-smart.jpg" alt="imagen del SmartTv">
             <h3>SmartTv Samsung 43"</h3>
-            <p>$23.200</p><p>5% OFF</p>
+            <p class="precios">$23.200</p><p class="descuentos">5% OFF</p>
         </article>
      </section>
      
@@ -124,25 +76,25 @@
         <article>
             <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
             <h3>Cafetera Moulinex</h3>
-            <p>$6.770</p><p>40% OFF</p>
+            <p class="precios">$6.770</p><p class="descuentos">40% OFF</p>
         </article>
 
         <article>
             <img src="/images/img-macbook-pro-2019.jpg" alt="imagen de MacBook">
             <h3>MacBook Pro 2019</h3>
-            <p>$230.000</p><p>20% OFF</p>
+            <p class="precios">$230.000</p><p class="descuentos">20% OFF</p>
         </article>
 
         <article>
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="imagen del Samsung Galaxy">
             <h3>Samsung Galaxy S10</h3>
-            <p>$70.500</p><p>10% OFF</p>
+            <p class="precios">$70.500</p><p class="descuentos">10% OFF</p>
         </article>
 
         <article>
             <img src="/images/img-tv-samsung-smart.jpg" alt="imagen del SmartTv">
             <h3>SmartTv Samsung 43"</h3>
-            <p>$23.200</p><p>5% OFF</p>
+            <p class="precios">$23.200</p><p class="descuentos">5% OFF</p>
         </article>
      </section>
     </main>
