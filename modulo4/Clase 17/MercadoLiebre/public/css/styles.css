@@ -1,7 +1,13 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+
 header{
     background-color: #EAC926;
 }
@@ -16,3 +22,43 @@ h2{
 .descuentos{
     font-size: 16px;
 }
+
+  .container {
+    width: 100%;
+  }
+
+  .burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Ancho del cuadrado */
+    height: 40px; /* Altura del cuadrado */
+    background-color: #1259c3; /* Color de fondo */
+    border: 1px solid #333; /* Borde del cuadrado */
+    border-radius: 5px; /* Borde redondeado (opcional) */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el menú */
+    margin: auto;
+  }
+  
+  .burger-menu i {
+    font-size: 20px; /* Tamaño del ícono */
+    color: white; /* Color del ícono */
+  }
+
+  footer section{
+    text-align: center; /* Centra el texto dentro del footer */
+  }
+  footer h3 {
+    margin-bottom: 10px; /* Margen inferior entre títulos y párrafos */
+  }
+  
+  footer p {
+    margin-bottom: 10px; /* Margen inferior entre párrafos */
+    text-align: center;
+  }
+  
+  footer i {
+    font-size: 2em; /* Tamaño de los íconos */
+    margin-bottom: 10px; /* Margen inferior para separación */
+    color: #1259c3
+  }
