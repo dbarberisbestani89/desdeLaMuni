@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-
-app.listen(3000, ()=>{
-    console.log('Servidor funcionando');
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, ()=>{
+    console.log((`Server up on port: http://localhost:${PORT}`))
 });
 
 app.get('/', (req,res)=>{
