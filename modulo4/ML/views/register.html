@@ -35,7 +35,7 @@
     
             <ul class="right-navbar" type="none">
                 <li><a href="/register">Crea tu cuenta <i class="far fa-id-card"></i></a></li>
-                <li><a href="#">Ingresa <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresa <i class="far fa-id-card"></i></a></li>
                 <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
@@ -46,74 +46,77 @@
 
     </header>
     <main>
-        <div>
-            <h1>Formulario de Registro</h1>
-        </div>
-                <!--Formulario-->
-                <form action="/registro" method="post" class create-form>
-                    <div>
-                        <label>
-                        <input type="text" name = "Nombre y Apellido" placeholder="Nombre y Apellido">
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                        <input type="text" name = "Nombre del Usuario" placeholder="Nombre del Usuario">
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                        <input type="text" name = "E-mail" placeholder="E-mail">
-                        </label>
-                    </div>
-                    <div>
-                        <h3>Fecha de Nacimiento</h3>
-                        
-                        <label>
+        <div class="main-register">
+            <div>
+                <h1>Formulario de Registro</h1>
+            </div>
+            <!-- Formulario -->
+            <form action="/registro" method="post" class="create-form">
+                <div class="main-register">
+                    <label class="laber_title">
+                        <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
+                    </label>
+                </div>
+                <div class="main-register">
+                    <label class="laber_title">
+                        <input type="text" name="Nombre del Usuario" placeholder="Nombre del Usuario">
+                    </label>
+                </div>
+                <div class="main-register">
+                    <label class="laber_title">
+                        <input type="text" name="E-mail" placeholder="E-mail">
+                    </label>
+                </div>
+                <div class="main-register">
+                    <h3>Fecha de Nacimiento</h3>
+                    <label>
                         <input type="date" name="fecha" value="mm/dd/yyyy">
-                        </label>
+                    </label>
+                </div>
+                <div class="main-register">
+                    <label class="laber_title">
+                        <input type="text" name="Domicilio" placeholder="Domicilio">
+                    </label>
+                </div>
+                <div class="main-register">
+                    <h3>Perfil de Usuario</h3>
+                    <label class="perfil_user_bot">
+                        <input type="radio" name="perfil-Usuario" value="Comprador">
+                        Comprador
+                    </label>
+                    <label class="perfil_user_bot">
+                        <input type="radio" name="perfil-Usuario" value="Vendedor">
+                        Vendedor
+                    </label>
+                </div>
+                <div class="main-register">
+                    <label class="laber_title" for="category">Categoria de Interes:</label>
+                    <div class="category_check">
+                        <div>
+                            <label for="">Electro</label>
+                            <input type="checkbox" name="category" id="category" value="electro">
+                        </div>
+                        <div>
+                            <label for="">Moda</label>
+                            <input type="checkbox" name="category" id="category" value="moda">
+                        </div>
+                        <div>
+                            <label for="">Hogar</label>
+                            <input type="checkbox" name="category" id="category" value="hogar">
+                        </div>
+                        <div>
+                            <label for="">Jugueteria</label>
+                            <input type="checkbox" name="category" id="category" value="jugueteria">
+                        </div>
+                        <div>
+                            <label for="">Vida Sana</label>
+                            <input type="checkbox" name="category" id="category" value="vidaSana">
+                        </div>
                     </div>
-                    <div>
-                        <label>
-                        <input type="text" name = "Domicilio" placeholder="Domicilio">
-                        </label>
-                    </div>
-                    <div>
-                        <h3>Perfil de Usuario</h3>
-                        <label>
-                            <input type="radio" name="perfil-Usuario" value="Comprador">
-                        Comprador</label>
-                        <label>
-                            <input type="radio" name="perfil-Usuario" value="Vendedor">
-                        Vendedor</label>
-                    <div>
-                        <label class="laber_title" for="category">Categoria de Interes:</label>
-                        <div class="category_check">
-                            <div>
-                                <label for="">Electro</label>
-                                <input type="checkbox" name="category" id="category" value="electro">
-                            </div>
-                            <div>
-                                <label for="">Moda</label>
-                                <input type="checkbox" name="category" id="category" value="moda">
-                            </div>
-                            <div>
-                                <label for="">Hogar</label>
-                                <input type="checkbox" name="category" id="category" value="hogar">
-                            </div>
-                
-                            <div>
-                                <label for="">Jugueteria</label>
-                                <input type="checkbox" name="category" id="category" value="jugueteria">
-                            </div>
-                
-                            <div>
-                                <label for="">Vida Sana</label>
-                                <input type="checkbox" name="category" id="category" value="vidaSana">
-                            </div>
-                    </div>
-                        
-                    </div>
+                </div>
+            </form>
+        </div>
+        
     </main>
     <footer>
         <div class="footer_div">
