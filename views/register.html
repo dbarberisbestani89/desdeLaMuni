@@ -66,7 +66,7 @@
                 </div>
                 <div class="main-register">
                     <label class="laber_title">
-                        <input type="text" name="E-mail" placeholder="E-mail">
+                        <input type="email" name="E-mail" placeholder="E-mail">
                     </label>
                 </div>
                 <div class="main-register">
@@ -115,6 +115,20 @@
                             <input type="checkbox" name="category" id="category" value="vidaSana">
                         </div>
                     </div>
+                </div>
+                <div>
+                    <label>Seleccione una imagen para el perfil del usuario</label>
+                    <input type = "file" name = "avatar" accept=".jpg">
+                </div>
+                <div>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+                    <label for="password">Confirmar Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="Confirmar contraseña" required>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
                 </div>
             </form>
         </div>
