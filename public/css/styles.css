@@ -48,10 +48,24 @@ header {
 }
 
 .main-navbar ul {
+    display: flex;
+    flex-direction: row;
     text-align: left;
     padding: 0px;
     margin: 0px;
 }
+
+.left-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.rigth-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
 
 .main-navbar a {
     text-decoration: none;
@@ -109,6 +123,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        align-content: space-around;
         flex-wrap: wrap;
     }
 
@@ -123,9 +138,9 @@ header {
 
     .main-navbar {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
+        align-content: space-around;
     }
 
 }
@@ -141,9 +156,9 @@ header {
     .main-navbar{
         margin-top: 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
+        align-content: space-around;
     }
     .copy-header{
         align-items: center ;
