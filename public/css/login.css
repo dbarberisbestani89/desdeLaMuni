@@ -1,12 +1,15 @@
 
 .login-container {
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display:flex;
     justify-content: center;
     flex-direction:column;
-    max-width: 50%;
+    max-width: 45%;
     align-items: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 8%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
